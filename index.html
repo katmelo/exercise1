@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    
+    <title>MDDN352 Week 1 examples</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- this meta tag is important to include for the @media directives -->
+        
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="script.js"></script>
+
+    <script src="jquery-3.3.1.min.js"></script>
+
+    <script src="jscript.js"></script>
+    
+  </head>
+  
+  <body>
+    <nav>
+      <ul>
+  <li>Home</li>
+  <li>Contact</li>
+  <li>Article</li>
+ 
+      </ul>
+    </nav>
+
+    
+    <h3>@Media</h3>
+    The background colour, text colour and border colour change due to @media directive in <a href="style.css">style.css</a> below 480px
+    
+    <h3>Nav</h3>
+    These inline elements in the nav change to block which reflows the nav also in the <a href="style.css">style.css</a>
+
+    
+    <h3>Javascript</h3>
+
+    The script <a href="script.js">script.js</a> sets up an event listener to dynamically update the text in the span on resize. This is giving the height of the document area.
+
+    <div>Height = <span id="myHeight"></span></div>
+    <div>Width = <span id="myWidth"></span></div>
+
+    <h3>JQuery</h3>
+
+    This jquery script <a href="jscript.js">jscript.js</a>gets the width and height on resize and dynamicallly updates the text in the span. This gives the height of the window.
+
+    <div>Height = <span id="jHeight"></span></div>
+    <div>Width = <span id="jWidth"></span></div>
+<h3>Inspector</h3>
+Try this page with different browsers and browser widths. Use the inspector in Firefox or Chromium.
+<h3>Customise</h2>
+Try and make own versions of this page with different styles, @media breaks etc.
+
+    
+  </body>
+</html>
